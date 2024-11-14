@@ -1,0 +1,31 @@
+{
+    "name": "cetera-labs/plugin-sale-payment-raiffeisen",
+    "description": "Raiffeisen for E-Commerce Plugin",
+    "type": "cetera-cms-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Romanov",
+            "email": "nicodim@mail.ru",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "cetera-labs/plugin-sale": "dev-master",
+        "raiffeisen-ecom/payment-sdk": "*"
+    },
+    
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-0": { 
+	        "SalePaymentRaiffeisenSbp\\": "classes/"
+	    }
+    },
+
+    "extra": {
+        "name": "sale-payment-raiffeisen",
+        "title": "Raiffeisen for E-Commerce",
+        "description": ""
+    }
+}
