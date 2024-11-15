@@ -6,7 +6,7 @@ class Gateway extends \Sale\PaymentGateway\GatewayAtol {
     const GATEWAY_PRODUCTION = 'https://pay.raif.ru';
     const GATEWAY_TEST = 'https://pay-test.raif.ru';
     
-	public static function getInfo()
+	public static function getInfo2()
 	{
 		return [
 			'name'        => 'Raiffeisen',
