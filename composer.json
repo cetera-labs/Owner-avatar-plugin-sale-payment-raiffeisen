@@ -11,8 +11,7 @@
         }
     ],
     "require": {
-        "cetera-labs/plugin-sale": "dev-master",
-        "raiffeisen-ecom/payment-sdk": "*"
+        "cetera-labs/plugin-sale": "dev-master"
     },
     
     "minimum-stability": "dev",
